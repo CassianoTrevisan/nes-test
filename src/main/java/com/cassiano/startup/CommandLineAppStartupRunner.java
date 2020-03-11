@@ -1,6 +1,6 @@
-package com.techprimers.springbatchexample1.startup;
+package com.cassiano.startup;
 
-import com.techprimers.springbatchexample1.services.StartJobService;
+import com.cassiano.services.StartJobService;
 import org.springframework.batch.core.JobParametersInvalidException;
 import org.springframework.batch.core.repository.JobExecutionAlreadyRunningException;
 import org.springframework.batch.core.repository.JobInstanceAlreadyCompleteException;

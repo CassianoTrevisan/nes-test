@@ -1,7 +1,7 @@
-package com.techprimers.springbatchexample1.batch;
+package com.cassiano.batch;
 
-import com.techprimers.springbatchexample1.model.User;
-import com.techprimers.springbatchexample1.repository.UserRepository;
+import com.cassiano.model.User;
+import com.cassiano.repository.UserRepository;
 import org.springframework.batch.item.ItemWriter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
